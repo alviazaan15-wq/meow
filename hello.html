@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <style>
+        #nn{
+            background: #000;
+            color: aliceblue;
+            padding: 10px;
+            cursor: pointer;
+        }
+        /* body{
+            color: antiquewhite;
+            background-color: #000000;
+        } */
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est modi cupiditate obcaecati harum voluptatem qui labore aliquid repudiandae inventore assumenda eveniet alias officiis ea voluptatibus dolore sapiente iusto molestiae, nemo tenetur, animi ratione amet dolores dignissimos impedit! Amet tempora ducimus possimus quasi porro nulla tempore, modi ad obcaecati ratione quidem aut sunt adipisci quisquam aspernatur reprehenderit qui est, distinctio tenetur cupiditate perspiciatis suscipit voluptates veritatis dolorem? Iusto ad perspiciatis expedita ipsam excepturi repellendus illo in! Natus amet consequuntur sequi sit eos totam quasi. Ad cum, dolore culpa consequuntur quam in, deserunt soluta necessitatibus cupiditate similique adipisci provident possimus facere quae ullam omnis aut! Repellat rem, assumenda eum nihil, dicta aliquam ullam officia esse nulla atque excepturi natus dolore minima vel. Impedit dolor illo natus provident consequatur, repudiandae voluptatem minima suscipit? Dicta neque hic magni voluptas et enim fugiat, dolor aliquam aperiam eveniet eligendi voluptatum non, culpa natus, provident mollitia debitis ab ullam officia distinctio aut! Obcaecati cupiditate vitae doloribus at incidunt odit harum deleniti temporibus voluptatum aperiam ullam blanditiis dolorum ducimus accusantium, repudiandae alias ea pariatur voluptas accusamus est culpa ipsa! Atque blanditiis, assumenda et qui harum deserunt sit soluta est natus perspiciatis sequi ratione odit suscipit totam molestiae sed dolorum explicabo incidunt reiciendis nemo? Cupiditate eos dicta at. Possimus, adipisci! Eaque, quisquam pariatur sequi, possimus quia quo porro harum velit ea unde rem doloremque tempore eveniet quam assumenda. Amet asperiores velit eaque saepe.</p>
+    </div>
+    <button id="nn">hide</button>
+    <p id="elo"></p>
+        <script>
+        let container=document.getElementById('container');   
+        let nn = document.getElementById('nn')
+                nn  .addEventListener('click', function (){
+                    if (container.style.display != 'none') {
+                        container.style.display='none'
+                        document.getElementById('nn').innerHTML='unhide'
+                    } else {
+                        container.style.display='block'
+                    }
+                })
+                let a= prompt("enter the number")
+                document.getElementById('elo').innerHTML="<b>the table of</b> " + a + " <b>is <b> <br> " +a +" multiplied by 1 is "+ a*1 + "<br>" + a + " multiplied by 2 is " + a*2 + "<br>" +a +" multiplied by 3 is " + a*3 + "<br>" +a +" multiplied by 4 is " + a*4+ "<br>" +a +" multiplied by 5  is " + a*5 + "<br>" + a +" multiplied by 6  is " + a*6 + "<br>" + a +" multiplied by 7  is " + a*7 + "<br>" +a +" multiplied by 8  is " + a*8 + "<br>" + a +" multiplied by 9  is " + a*9 +" <br>" + a + " multiplied by 10  is " + a*10+ "<br>" + "division <br>"+ a +" divided by 1 is "+ a/1 + "<br>" + a + " divided by 2 is " + a/2 + "<br>" +a +" divided by 3 is " + a/3 + "<br>" +a +" divided by 4 is " + a/4+ "<br>" +a +" divided by 5  is " + a/5 + "<br>" + a +" divided by 6  is " + a/6 + "<br>" + a +" divided by 7  is " + a/7 + "<br>" +a +" divided by 8  is " + a/8 + "<br>" + a +" divided by 9  is " + a/9 +" <br>" + a + " divided by 10  is " + a/10  
+    </script>
+</body>
+</html>
